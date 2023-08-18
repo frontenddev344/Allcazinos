@@ -1,0 +1,303 @@
+/*media queries start*/
+
+@media screen and (max-width:1199px) {
+    .container {
+        padding: 0 20px;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .crypto__cardtext p.content--text {
+        font-size: 15px;
+        line-height: 23px;
+        text-align: justify;
+    }
+
+    .useful-links ul {
+        gap: 11px;
+    }
+
+    .casino__bannertext h1 {
+        font-size: 45px;
+    }
+
+    .casino__bannertext h2 {
+        font-size: 25px;
+        margin: 14px 0;
+
+    }
+}
+
+@media screen and (max-width:991px) {
+    .col-lg-4.col-md-6.col-sm-12.xl {
+        padding-top: 30px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .contact__banner h1 {
+        font-size: 36px;
+    }
+
+    .contact-us a {
+        font-size: 14px;
+        line-height: 26px;
+    }
+
+    .casino__banner {
+        background-image: url(../images/casinobg1.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 650px;
+        position: relative;
+    }
+
+    .crypto__card {
+        height: 100%;
+
+        img {
+            height: 100%;
+        }
+    }
+
+    .crypto__cardtext h3 {
+        font-size: 21px;
+    }
+
+    .crypto__cardtext p.content--text {
+        margin: 8px 0;
+    }
+
+    .row.crypto.flex-wrap-reverse {
+        padding: 30px 0;
+    }
+
+    .slovernia__pictures.overlay {
+        margin: 20px 10px;
+    }
+
+    .useful-links li a {
+        font-size: 12px;
+    }
+
+    .contact-us h4 {
+        font-size: 20px;
+    }
+
+    .contact__text h2 {
+        font-size: 50px;
+    }
+
+
+}
+
+@media screen and (max-width:767px) {
+    .crypto__cardtext {
+        padding: 30px 0;
+    }
+
+    .casino-information.content {
+        padding: 0 0 20px 0;
+    }
+
+    .contact-us {
+        justify-content: left;
+        padding: 30px 0;
+        align-items: start;
+    }
+
+    .accordion-body p {
+        font-size: 16px;
+    }
+
+    .slovernia__pictures.overlay {
+        margin: 10px 20px;
+        height: 100%;
+    }
+
+    .slovernia__pictures.overlay img {
+        max-width: 100%;
+    }
+
+    .destination-card.page {
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    .destination-card.view {
+        padding: 0 10px 20px 10px;
+    }
+
+    .col-lg-4.col-md-6.col-sm-12.lg {
+        padding-top: 30px;
+    }
+
+    .useful-links li a {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:575px) {
+    .site-logo img {
+        max-width: 150px;
+    }
+
+    .casino__banner {
+        height: 450px;
+    }
+
+    img.img-fluid.new-left,
+    img.img-fluid.new-right {
+
+        display: block;
+    }
+
+    .casino__bannertext {
+        transform: translate(-50%, -30%);
+
+        h1 {
+            font-size: 30px;
+        }
+
+        h2 {
+            font-size: 17px;
+        }
+    }
+
+    .site-nav {
+        width: 100%;
+    }
+
+    .site-nav ul {
+        display: block;
+    }
+
+    .social-icons,
+    .links__main {
+        align-items: center;
+        border: none;
+    }
+
+    .useful-links ul {
+        display: block;
+        text-align: center;
+    }
+
+    .right__animate img,
+    .left__animate img {
+        display: none;
+    }
+
+    .casino-information p {
+        text-align: justify;
+    }
+
+    .contact__text h2 {
+        font-size: 35px;
+        white-space: nowrap;
+    }
+
+    .contact-us {
+        align-items: center;
+    }
+
+    .terms-banner {
+        height: 450px;
+    }
+
+    .contact__para {
+        text-align: justify;
+    }
+
+    .contacts__links {
+        h3 {
+            font-size: 19px;
+            margin-bottom: 10px;
+            color: #9568ff;
+            font-family: "Barlow";
+            font-weight: 500;
+        }
+
+        p {
+            text-align: justify;
+        }
+    }
+
+    .vegas__content {
+        h2 {
+            font-size: 30px;
+        }
+
+        p {
+            font-size: 15px;
+        }
+    }
+
+    .vegas__banner {
+        height: 450px;
+    }
+
+    .casino-information p {
+        font-size: 17px;
+        line-height: 24px;
+    }
+
+    .veags__text p {
+        font-size: 15px;
+        line-height: 25px;
+        text-align: justify;
+    }
+
+    .vegas__banner.atlantic {
+        height: 450px;
+    }
+
+    .vegas__banner.singapore {
+        height: 450px;
+    }
+
+    .vegas__banner.monaco {
+        height: 450px;
+    }
+
+    .vegas__banner.macau {
+        height: 450px;
+    }
+}
+
+
+@media screen and (max-width:395px) {
+    .casino__bannertext h2 {
+        font-size: 15px;
+    }
+
+    .menu-toggle .bar-1,
+    .bar-2,
+    .bar-3 {
+        width: 24px;
+    }
+
+    .site-mail a {
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .part .container {
+        padding: 0 10px;
+    }
+
+    .contact__text h2 {
+        font-size: 26px;
+        white-space: nowrap;
+    }
+
+    .accordion-body p {
+        font-size: 14px;
+    }
+
+    .vegas__content p {
+        text-align: center;
+    }
+}
