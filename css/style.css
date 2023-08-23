@@ -532,7 +532,7 @@ img.img-fluid.new-right {
   background-size: cover;
   background-position: center;
   position: relative;
-  height: 600px;
+  height: 450px;
   background: #221646;
 }
 
@@ -792,15 +792,15 @@ button.accordion-button.ps-0 {
 
 /*End atlantic city css*/
 /*Start singapore  css*/
-.vegas__banner.atlantic {
+.vegas__banner.singapore {
   background-image: url(../images/Singapore-banner.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 700px;
+  height: 450px;
   position: relative;
 }
-.vegas__banner.atlantic::after {
+.vegas__banner.singapore::after {
   position: absolute;
   inset: 0;
   background: rgba(0, 0, 0, 0.2509803922);
