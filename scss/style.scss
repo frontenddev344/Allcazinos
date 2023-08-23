@@ -57,6 +57,7 @@ $clr-darkpurple: #9568ff;
 /*global end*/
 
 /*header start*/
+
 .site-nav {
     position: fixed;
     top: 0;
@@ -68,7 +69,10 @@ $clr-darkpurple: #9568ff;
     transition: 0.4s cubic-bezier(0, 0, 0.13, 0.61);
     transform: translateX(-100%);
 }
-
+.site-header .site-nav ul li a.active {
+    color: #000;
+    font-weight: 700;
+}
 .site-nav ul {
     display: block;
     padding: 75px 60px 0;

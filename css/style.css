@@ -57,6 +57,11 @@ html {
   transform: translateX(-100%);
 }
 
+.site-header .site-nav ul li a.active {
+  color: #000;
+  font-weight: 700;
+}
+
 .site-nav ul {
   display: block;
   padding: 75px 60px 0;
