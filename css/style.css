@@ -693,7 +693,7 @@ img.img-fluid.new-right {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 700px;
+  height: 450px;
   position: relative;
 }
 .vegas__banner::after {
@@ -776,7 +776,7 @@ button.accordion-button.ps-0 {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 700px;
+  height: 450px;
   position: relative;
 }
 .vegas__banner.atlantic::after {
@@ -810,7 +810,7 @@ button.accordion-button.ps-0 {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 700px;
+  height: 450px;
   position: relative;
 }
 
@@ -870,7 +870,7 @@ a.monaco-btn {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 700px;
+  height: 450px;
   position: relative;
 }
 
