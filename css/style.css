@@ -760,6 +760,7 @@ button.accordion-button.ps-0 {
   font-size: 24px;
   font-family: "Barlow";
   background-color: #d9ccf8 !important;
+  padding-left: 15px !important;
 }
 
 .accordion-button:not(.collapsed)::after {
