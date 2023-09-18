@@ -867,6 +867,10 @@ a.monaco-btn {
   display: inline-block;
 }
 
+.monaco__picture img {
+  height: 348px;
+}
+
 /*End monaco css*/
 /*Start macau css*/
 .vegas__banner.macau {
