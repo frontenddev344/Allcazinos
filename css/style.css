@@ -358,6 +358,10 @@ header.site-header.sticky .menu-toggle .bar-3 {
   color: #ffffff;
 }
 
+.contacts__links p {
+  font-size: 18px;
+}
+
 /*footer end*/
 /*banner start*/
 .casino__banner {
