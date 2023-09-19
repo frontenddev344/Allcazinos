@@ -758,13 +758,16 @@ a.vegas.banner-btn {
   box-shadow: none !important;
 }
 
-button.accordion-button.ps-0.collapsed,
-button.accordion-button.ps-0 {
+button.accordion-button.collapsed, button.accordion-button {
   color: #000;
   font-size: 24px;
   font-family: "Barlow";
   background-color: #d9ccf8 !important;
   padding-left: 15px !important;
+}
+
+.accordion-button:not(.collapsed) {
+  color: #000;
 }
 
 .accordion-button:not(.collapsed)::after {

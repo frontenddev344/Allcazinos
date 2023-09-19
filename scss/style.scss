@@ -811,14 +811,19 @@ a.vegas.banner-btn {
     box-shadow: none !important;
 }
 
-button.accordion-button.ps-0.collapsed,
-button.accordion-button.ps-0 {
-    color: $clr-black;
+
+button.accordion-button.collapsed,button.accordion-button{
+    color: #000;
     font-size: 24px;
-    font-family: 'Barlow';
+    font-family: "Barlow";
     background-color: #d9ccf8 !important;
     padding-left: 15px !important;
 }
+.accordion-button:not(.collapsed){
+    color: $clr-black;
+}
+
+
 
 .accordion-button:not(.collapsed)::after {
     background-image: url(../images/accordion-minus.png);
