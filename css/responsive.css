@@ -25,6 +25,9 @@
   .col-lg-4.col-md-6.col-sm-12.xl {
     padding-top: 30px;
   }
+  .useful-links li a {
+    font-size: 13px;
+  }
 }
 @media screen and (max-width: 768px) {
   .casino__bannertext h1 {
