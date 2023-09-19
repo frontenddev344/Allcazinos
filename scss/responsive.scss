@@ -43,6 +43,10 @@
     .slovernia__pictures.overlay {
         margin: 20px 7px;
     }
+    .contact__text{
+        width: 100%;
+        text-align: center;
+    }
 }
 
 
@@ -151,6 +155,10 @@
 
     .useful-links li a {
         font-size: 15px;
+    }
+    .monaco__picture.macau img {
+        max-width: 100%;
+        object-fit: cover;
     }
 }
 
