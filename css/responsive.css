@@ -224,6 +224,12 @@
   .vegas__banner.macau {
     height: 450px;
   }
+  .useful-links {
+    margin-top: 0;
+  }
+  .social-icons {
+    margin-bottom: 20px;
+  }
 }
 @media screen and (max-width: 395px) {
   .casino__bannertext h2 {
