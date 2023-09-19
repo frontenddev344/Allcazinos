@@ -391,16 +391,17 @@ header.site-header.sticky .menu-toggle .bar-3 {
 /*banner start*/
 
 .casino__banner {
-    background-image: url(../images/casinobg1.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
     height: 700px;
     position: relative;
-    overflow: hidden;
 }
-
-
+video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+ video::-webkit-media-controls {
+     display: none;
+ }
 .casino__bannertext {
     position: absolute;
     top: 50%;
