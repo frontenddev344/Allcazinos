@@ -393,6 +393,12 @@ header.site-header.sticky .menu-toggle .bar-3 {
 .casino__banner {
     height: 700px;
     position: relative;
+    &::after{
+        position: absolute;
+        content: '';
+        inset: 0;
+        background: #0c0b0b69;
+    }
 }
 video {
     width: 100%;

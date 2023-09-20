@@ -368,6 +368,12 @@ header.site-header.sticky .menu-toggle .bar-3 {
   height: 700px;
   position: relative;
 }
+.casino__banner::after {
+  position: absolute;
+  content: "";
+  inset: 0;
+  background: rgba(12, 11, 11, 0.4117647059);
+}
 
 video {
   width: 100%;
